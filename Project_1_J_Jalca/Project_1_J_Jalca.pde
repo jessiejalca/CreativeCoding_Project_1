@@ -20,10 +20,10 @@ void draw() {
     stroke(0);
     fill(0);
     beginShape();
-      vertex(50, -20);
-      curveVertex(-100, -80);
-      vertex(-60, -35);
-    endShape(CLOSE);
+      vertex(50, -25);
+      bezierVertex(50, -50, -95, -20, -110, 10);
+      //bezierVertex(50, -100, -95, -80, 50, -25);      
+    endShape();
 
     // MASK
     noStroke();
